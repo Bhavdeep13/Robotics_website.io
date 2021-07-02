@@ -1,0 +1,26 @@
+.count{
+    margin: 40px 0;
+}  
+
+.countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 10px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    color: #cb9bfe;
+}
+
+.countd span{
+    display: block;
+    font-size: 26px;
+    margin-top: 15px;
+}
+  
+.counting-text{
+    text-align: center;
+}

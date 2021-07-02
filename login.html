@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/fav.png">
+    <meta name="author" content="codepixer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>Robotics</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="theme/css/linearicons.css">
+    <link rel="stylesheet" href="theme/css/font-awesome.min.css">
+    <link rel="stylesheet" href="theme/css/bootstrap.css">
+    <link rel="stylesheet" href="theme/css/magnific-popup.css">
+    <link rel="stylesheet" href="theme/css/nice-select.css">
+    <link rel="stylesheet" href="theme/css/hexagons.min.css">
+    <link rel="stylesheet" href="theme/css/animate.min.css">
+    <link rel="stylesheet" href="theme/css/owl.carousel.css">
+    
+    <link rel="stylesheet" href="theme/css/style.css">
+    <link rel="stylesheet" href="theme/css/main.css">
+    <link rel="stylesheet" href="theme/css/login.css">
+    
+
+</head>
+<body>
+
+    <header id="header" id="home">
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="theme/img/logo.png" alt="" title="" /></a>
+                </div>
+
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="menu-has-children"><a href="blog-home.html">Blog</a>
+                            <ul>
+                                <li><a href="blog-home.html">Blog Home</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-has-children"><a href="">Dropdown</a>
+                            <ul>
+                                <li><a href="elements.html">Elements</a></li>
+                                <li class="menu-has-children"><a href="404.html">Extra pages</a>
+                                    <ul>
+                                        <li><a href="404.html">404 Page</a></li>
+                                        <li><a href="coming.html">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-has-children"><a href="products.html">Products</a>
+                            <ul>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="product-details.html">Product Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        
+                        <div class="contain" id="contain">
+                            <div class="form-contain sign-up-contain">
+                                <form action="#" id="myform" onsubmit="return validation()">
+                                    <h2>Create Account</h2>
+                                    <div class="social-contain">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-google"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </div>
+                                    <span>or use your email for registration</span>
+                                    <div id="error_message"></div>
+                                    <input type="text" placeholder="Name" id="Name">
+                                    <input type="email" placeholder="Email" id="Email">
+                                    <input type="password" placeholder="Password" id="Password">
+                                    <button class="but"><a href="theme/login.html">Sign Up</a></button>
+                                </form>
+                            </div>
+                            <div class="form-contain sign-in-contain">
+                                <form action="#" id="myform" >
+                                    <h2>Sign in</h2>
+                                    <div class="social-contain">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-google"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </div>
+                                    <span>or use your account</span>
+                                    <div id="error_message"></div>
+                                    <input type="email" placeholder="Email" id="Email1">
+                                    <input type="password" placeholder="Password" id="Password1">
+                                    <a class="text" href="#">Forgot your password?</a>
+                                    <button class="but" onsubmit="return validation()"><a href="index.html">Sign In</a> </button>
+                                </form>
+                            </div>
+                            <div class="over-contain">
+                                <div class="over">
+                                    <div class="over-panel over-left">
+                                        <h2>Welcome Back!</h2>
+                                        <p>To keep connected with us please login with your personal info</p>
+                                        <button class="ghost" id="signIn">Sign In</button>
+                                    </div>
+                                    <div class="over-panel over-right">
+                                        <h2>Hello, Friend!</h2>
+                                        <p>Enter your personal details and start journey with us</p>
+                                        <button class="ghost" id="signUp">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <script src="theme/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="ajax/libs/popper-js/1-12-9/umd/popper.min.js" ></script>
+    <script src="theme/js/vendor/bootstrap.min.js"></script>
+    <script src="theme/js/easing.min.js"></script>
+    <script src="theme/js/hoverintent.js"></script>
+    <script src="theme/js/superfish.min.js"></script>
+    <script src="theme/js/jquery.ajaxchimp.min.js"></script>
+    <script src="theme/js/jquery.magnific-popup.min.js"></script>
+    <script src="theme/js/owl.carousel.min.js"></script>
+    <script src="theme/js/hexagons.min.js"></script>
+    <script src="theme/js/jquery.nice-select.min.js"></script>
+    <script src="theme/js/jquery.counterup.min.js"></script>
+    <script src="theme/js/waypoints.min.js"></script>
+    <script src="theme/js/mail-script.js"></script>
+    <script src="theme/js/main.js"></script>
+    <script src="theme/js/login.js"></script>
+    <script src="theme/js/validation.js"></script>
+
+
+
+    </body>
+</html>
